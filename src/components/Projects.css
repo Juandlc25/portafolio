@@ -1,0 +1,22 @@
+.projects__container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects__title {
+  border-bottom: 2px solid #1c7d72;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.projects__project {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-content: flex-end; */
+}
+.projects__full {
+  width: 100% !important;
+}
